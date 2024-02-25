@@ -1,0 +1,316 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: #F9F4F0;
+  cursor: pointer;
+}
+#nav1{
+  height: 45px;
+  width: 100%;
+  /* background-color: blue; */
+  padding: 12px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav1 i{
+  color: crimson;
+  font-size: 22px;
+}
+#nav span{
+  font-size: 17px;
+  color: crimson;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav1 #box{
+  height:30px;
+  width: 9%;
+  padding: 7px 10px;
+  text-align: center;
+  background-color: crimson;
+  border-radius: 11px;
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+}
+#nav2{
+  height: 45px;
+  width: 100%;
+  /* background-color: blue; */
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.46);
+}
+#nav2 h4{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+#nav2 h4:hover{
+  color: crimson;
+}
+#content{
+  height: calc(100% - 90px);
+  width: 100%;
+  /* background-color: blue; */
+}
+#boxes{
+  height: 100%;
+  width:100%;
+  /* background-color: rebeccapurple; */
+  padding: 15px 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.box1{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+}
+#abox{
+  background-image: url(https://i.pinimg.com/474x/82/0d/cb/820dcb566b33724e400f9ffe707e0832.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+/* #bbox:hover{
+  opacity: 0;
+} */
+.box2{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+}
+#bbox{
+  background-image: url(https://i.pinimg.com/474x/44/f4/cb/44f4cb2e656184a241830cfdc4dd9b0b.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+/* #bbox:hover{
+  opacity: 1;
+} */
+.box3{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+}
+#cbox{
+  background-image: url(https://i.pinimg.com/474x/3d/4c/cf/3d4ccfc35f87ebe0fdb3e39b06e2f7c4.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+/* #cbox:hover{
+  opacity: 1;
+} */
+.box4{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+}
+#dbox{
+  background-image: url(https://i.pinimg.com/474x/c3/a0/57/c3a0573d9b87c72a3e5fd0f03b29d370.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+/* #dbox:hover{
+  opacity: 1;
+} */
+.box5{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+}
+#ebox{
+  background-image: url(https://i.pinimg.com/564x/95/67/67/9567670f5e60a22c2eb912a770ef95c8.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+/* #ebox:hover{
+  opacity: 1;
+} */
+.box6{
+  width: 20%;
+  height: 100%;
+  /* background-color: aqua; */
+  flex-shrink: 0;
+}
+#fbox{
+  background-image: url(https://i.pinimg.com/564x/e2/38/4c/e2384cafab3f50b6825f9de37d4cd2b0.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+/* #fbox:hover{
+  opacity: 1;
+} */
+::-webkit-scrollbar{
+  background-color: transparent;
+  height: 10px;
+  width: 30%;
+}
+::-webkit-scrollbar-track{
+  width: 30%;
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: crimson;
+  border-radius: 5px;
+  width: 10px;
+  display: none;
+}
+@media (max-width:600px) {
+  #nav1{
+    height: 40px;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nav1 i{
+    font-size: 20px;
+  }
+  #nav span{
+    font-size: 17px;
+    color: crimson;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #nav1 #box{
+    height:25px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    border-radius: 7px;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+  }
+  #nav2{
+    height: 40px;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 12px 14px;
+    display: flex;
+    align-items: center;
+    gap: 17.5px;
+    border: 1px solid rgba(0, 0, 0, 0.46);
+  }
+  #nav2 h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  #content{
+    height: calc(100% - 80px);
+    width: 100%;
+    /* background-color: blue; */
+  }
+  #boxes{
+    height: 100%;
+    width:100%;
+    /* background-color: rebeccapurple; */
+    padding: 12px 14px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  .box1{
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    /* background-color: aqua; */
+    flex-shrink: 0;
+  }
+  .box2{
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    /* background-color: aqua; */
+    flex-shrink: 0;
+  }
+  .box3{
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    /* background-color: aqua; */
+    flex-shrink: 0;
+  }
+  .box4{
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    /* background-color: aqua; */
+    flex-shrink: 0;
+  }
+  .box5{
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    /* background-color: aqua; */
+    flex-shrink: 0;
+  }
+  .box6{
+    width: 80%;
+    height: 100%;
+    margin-top: 5px;
+    /* background-color: aqua; */
+    flex-shrink: 0;
+  }
+}
